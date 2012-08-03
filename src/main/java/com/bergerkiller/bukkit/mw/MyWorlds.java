@@ -98,10 +98,7 @@ public class MyWorlds extends PluginBase {
         
         //Localization
         Localization.init(this, locale);
-        
-        //Permissions
-		Permission.init(this);
-		
+        		
 		//Portals
 		Portal.init(root() + "portals.txt");
 
@@ -130,7 +127,6 @@ public class MyWorlds extends PluginBase {
 		
         WorldManager.deinit();
         Localization.deinit();
-        Permission.deinit();
         
 		//Abort chunk loader
 		LoadChunksTask.deinit();

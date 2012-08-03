@@ -21,6 +21,10 @@
 			<id>bukkit-repo</id>
 			<url>http://repo.bukkit.org/content/groups/public/</url>
 		</repository>
+		<repository>
+			<id>spout-repo</id>
+			<url>http://repo.spout.org/</url>
+		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -38,6 +42,12 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.getspout</groupId>
+			<artifactId>spoutpluginapi</artifactId>
+			<version>dev-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>craftbukkit</artifactId>
 			<version>RELEASE</version>
@@ -47,7 +57,7 @@
 			<groupId>net.teamio</groupId>
 			<artifactId>commonlib</artifactId>
 			<version>dev-SNAPSHOT</version>
-            <scope>compile</scope>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 
