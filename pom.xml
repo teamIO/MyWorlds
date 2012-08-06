@@ -135,6 +135,7 @@
 							<artifactSet>
 								<excludes>
 									<exclude>org.bukkit:*</exclude>
+									<exclude>org.getspout:*</exclude>
 								</excludes>
 							</artifactSet>
 							<filters>
